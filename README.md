@@ -1,20 +1,62 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Sentinel RBAC - Enterprise Multi-Tenant Security System 🛡️
 
-# Run and deploy your AI Studio app
+**Sentinel RBAC** is a Role-Based Access Control (RBAC) dashboard. It demonstrates enterprise-grade security patterns for multi-tenant SaaS environments. This project uses a React frontend and a Java/Spring Boot backend architecture.
 
-This contains everything you need to run your app locally.
+---
 
-View your app in AI Studio: https://ai.studio/apps/drive/1_OCUabyHvBfTNFt7PBOUCo48U1WY1iJ7
+## 🎯 Recruiter Highlights
+- **Architecture-First Design**: Includes an "Architecture" module to showcase technical depth in Spring Boot and Java.
+- **Enterprise Patterns**: Implements multi-tenant data isolation and permission matrices.
+- **Production-Ready UI**: Built with Tailwind CSS and TypeScript.
 
-## Run Locally
+---
 
-**Prerequisites:**  Node.js
+## ✨ Key Features
+- **Multi-Tenant Isolation**: Ensures tenant-specific data separation.
+- **Role Matrix**: Manages permissions for different user roles.
+- **Audit Analysis**: Includes security logging and system monitoring modules.
+- **Dynamic Dashboard**: Visualizes tenant activities and system health.
 
+---
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## 🛠️ Tech Stack
+- **Frontend**: React.js (Functional Components, Hooks), TypeScript, Tailwind CSS.
+- **Backend (Architectural Design)**: Java 17+, Spring Boot, Spring Security.
+- **State Management**: Context API / Modern React patterns.
+- **Tools**: Google AI Studio (Gemini 1.5 Flash), GitHub.
+
+---
+
+## 📂 Project Structure
+Based on the workspace layout:
+- `AuditAnalysis.tsx`: Handles security log visualization.
+- `RoleMatrix.tsx`: The core engine for permission management.
+- `TenantManager.tsx`: Manages multi-tenant lifecycle.
+- `Architecture.tsx`: Explains the Spring Boot backend depth.
+
+---
+
+## 🚦 Getting Started
+
+### Prerequisites
+- Node.js (v18+)
+- npm or yarn
+
+### Installation
+1.  **Clone the repository**:
+    ```bash
+    git clone https://github.com
+    ```
+2.  **Install dependencies**:
+    ```bash
+    npm install
+    ```
+3.  **Start the development server**:
+    ```bash
+    npm start
+    ```
+
+---
+
+## 🛡️ Security Implementation
+This project follows the **Principle of Least Privilege (PoLP)**. The backend architecture assumes a JWT-based authentication flow with Spring Security to validate tenant-specific roles at the API level.
