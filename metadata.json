@@ -1,0 +1,5 @@
+{
+  "name": "Copy of Sentinel RBAC - Enterprise Multi-Tenant Security Suite",
+  "description": "A comprehensive administrative dashboard for managing multi-tenant Role-Based Access Control systems, featuring dynamic permission matrices, tenant isolation, and AI-powered security policy generation.",
+  "requestFramePermissions": []
+}
